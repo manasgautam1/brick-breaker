@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Breakout Game</title>
+  </head>
+  <body>
+    <nav>
+      <button class="btn show-rules">Show Rules</button>
+      <h1>Breakout!</h1>
+    </nav>
+    <div id="rules" class="rules">
+      <h2>How To Play :</h2>
+      <p>
+        Use your right and left keys to move the paddle to bounce the ball up
+        and break the blocks.
+      </p>
+      <p>If you miss the ball, your score and the blocks will reset.</p>
+
+      <button class="btn close">Close</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script src="main.js"></script>
+  </body>
+</html>
